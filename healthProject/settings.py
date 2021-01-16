@@ -150,6 +150,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+# SECRET_KEY=mua%q)a3h7h-b-t15z*#5)^^qn+bb!0wp2app4z%_=^up@&u1_
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
