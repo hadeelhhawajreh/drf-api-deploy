@@ -98,7 +98,8 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
 ALLOWED_HOST = tuple(env.list('ALLOWED_HOST'))
-# django.db.backends.postgresql
+
+
 DATABASES = {
     'default': {
        'ENGINE': env('DATABASE_ENGINE'),
@@ -107,9 +108,6 @@ DATABASES = {
         'PASSWORD': env('DATABASE_PASSWORD'),
         'HOST': env('DATABASE_HOST'),
         'PORT': env('DATABASE_PORT'),
-        'OPTIONS': {
-            'sslmode': 'require'
-        }
     }
 }
 # DATABASES = {
